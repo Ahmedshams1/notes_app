@@ -10,7 +10,7 @@ class CostomButton extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: 55,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16), color: KprimaryColor),
+          borderRadius: BorderRadius.circular(16), color: kprimaryColor),
       child: Center(
         child: Text(
           'Add',

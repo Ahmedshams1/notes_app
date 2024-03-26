@@ -9,14 +9,14 @@ class CustemTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      cursorColor: KprimaryColor,
+      cursorColor: kprimaryColor,
       maxLines: maxline,
       decoration: InputDecoration(
           hintText: hint,
-          hintStyle: TextStyle(color: KprimaryColor),
+          hintStyle: TextStyle(color: kprimaryColor),
           border: BuildBorder(),
           enabledBorder: BuildBorder(),
-          focusedBorder: BuildBorder(KprimaryColor)),
+          focusedBorder: BuildBorder(kprimaryColor)),
     );
   }
 
