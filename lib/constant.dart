@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-const KprimaryColor = Colors.lightBlue;
+const KprimaryColor = Colors.deepPurple;
